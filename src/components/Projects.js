@@ -2,6 +2,17 @@ import React, { Component } from 'react';
 import { Card, CardTitle, CardText, CardActions, Icon, Button} from 'react-mdl';
 import './Home.css'
 
+import hangman from '../images/hangman.jpg'
+import sphereogram from '../images/sphereogram.png'
+import library from '../images/library.jpg'
+import neuralnetwork from '../images/neuralnetwork.jpg'
+import youthadvocacy from '../images/youthadvocacy.png'
+import webserver from '../images/webserver.jpg'
+// background: `url(${neuralnetwork}) center / cover`
+
+
+
+
 export default class Projects extends Component {
 
   render() {
@@ -25,13 +36,13 @@ export default class Projects extends Component {
             </CardActions>
           </Card>
           <Card shadow={3} style={{display: 'inline-block', width: '30vw', left: '20vw',top: '25px', margin: 'auto'}}>
-            <CardTitle style={{color: '#fff', height: '23vw', background: 'url(http://i67.tinypic.com/2mwbli1.jpg) center / cover'}}></CardTitle>
+            <CardTitle style={{color: '#fff', height: '23vw', background: `url(${hangman}) center / cover`}}></CardTitle>
           </Card>
         </div>
 
         <div >
           <Card shadow={3} style={{display: 'inline-block', width: '30vw', left: '13vw',top: '100px', margin: 'auto'}}>
-            <CardTitle style={{color: '#fff', height: '23vw', background: 'url(http://i66.tinypic.com/29msr6d.png) center / cover'}}></CardTitle>
+            <CardTitle style={{color: '#fff', height: '23vw', background: `url(${sphereogram}) center / cover`}}></CardTitle>
           </Card>
           <Card shadow={3} style={{display: 'inline-block', width: '23vw', left: '20vw',top: '100px', margin: 'auto'}}>
             <CardTitle expand style={{alignItems: 'flex-start', color: '#4b21ff'}}>
@@ -69,13 +80,13 @@ export default class Projects extends Component {
             </CardActions>
           </Card>
           <Card shadow={3} style={{display: 'inline-block', width: '30vw', left: '20vw',top: '180px', margin: 'auto'}}>
-            <CardTitle style={{color: '#fff', height: '23vw', background: 'url(http://i68.tinypic.com/693wnk.jpg) center / cover'}}></CardTitle>
+            <CardTitle style={{color: '#fff', height: '23vw', background: `url(${library}) center / cover`}}></CardTitle>
           </Card>
         </div>
 
         <div >
           <Card shadow={3} style={{display: 'inline-block', width: '30vw', left: '13vw',top: '260px', margin: 'auto'}}>
-            <CardTitle style={{color: '#fff', height: '23vw', background: 'url(http://i67.tinypic.com/oge994.jpg) center / cover'}}></CardTitle>
+            <CardTitle style={{color: '#fff', height: '23vw', background: `url(${neuralnetwork}) center / cover`}}></CardTitle>
           </Card>
           <Card shadow={3} style={{display: 'inline-block', width: '23vw', left: '20vw',top: '260px', margin: 'auto'}}>
             <CardTitle expand style={{alignItems: 'flex-start', color: '#4b21ff'}}>
@@ -107,19 +118,19 @@ export default class Projects extends Component {
               Developed with Node.js, Express.js, AngularJS and MongoDB.
               </CardText>
               <CardActions border style={{borderColor: 'rgba(0, 0, 0, 0.2)', display: 'flex', boxSizing: 'border-box', alignItems: 'center', color: '#000'}}>
-                <Button colored style={{color: '#4b21ff'}}> <a href="https://sphereogram.herokuapp.com/project" >View Project on GitHub</a></Button>
+                <Button colored style={{color: '#4b21ff'}}> <a href="https://github.com/krishnakaranam3732/Youth-Advocacy-Project" >View Project on GitHub</a></Button>
                 <div className="mdl-layout-spacer"></div>
                 <Icon style={{color: '#4b21ff'}} name="people" />
             </CardActions>
           </Card>
           <Card shadow={3} style={{display: 'inline-block', width: '30vw', left: '20vw',top: '330px', margin: 'auto'}}>
-            <CardTitle style={{color: '#fff', height: '23vw', background: 'url(http://i67.tinypic.com/9u6eza.png) center / cover'}}></CardTitle>
+            <CardTitle style={{color: '#fff', height: '23vw', background: `url(${youthadvocacy}) center / cover`}}></CardTitle>
           </Card>
         </div>
 
         <div >
           <Card shadow={3} style={{display: 'inline-block', width: '30vw', left: '13vw',top: '410px', margin: 'auto'}}>
-            <CardTitle style={{color: '#fff', height: '23vw', background: 'url(https://image.freepik.com/free-vector/web-server-letter-w-logo_1438-480.jpg) center / cover'}}></CardTitle>
+            <CardTitle style={{color: '#fff', height: '23vw', background: `url(${webserver}) center / cover`}}></CardTitle>
           </Card>
           <Card shadow={3} style={{display: 'inline-block', width: '23vw', left: '20vw',top: '410px', margin: 'auto'}}>
             <CardTitle expand style={{alignItems: 'flex-start', color: '#4b21ff'}}>

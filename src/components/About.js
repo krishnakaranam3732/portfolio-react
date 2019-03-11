@@ -2,13 +2,14 @@ import React, { Component } from 'react';
 import { Card } from 'react-mdl';
 import { Fab } from '@material-ui/core';
 import './Home.css'
+import krishnakaranam from '../images/krishnakaranam.jpg';
 
 export default class About extends Component {
 
   render() {
     return (
     <div>
-        <Card shadow={5} style={{display: 'inline-block', width: '22vw', height: '22vw', left: '30vw',top: '100px', background: 'url(http://i68.tinypic.com/bhm2jb.jpg) center / cover', margin: 'auto'}}>
+        <Card shadow={5} style={{display: 'inline-block', width: '22vw', height: '22vw', left: '30vw',top: '100px', background: `url(${krishnakaranam}) center / cover`, margin: 'auto'}}>
         </Card>
 
         <div className = "projectLeft">
