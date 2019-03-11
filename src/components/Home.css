@@ -1,0 +1,117 @@
+
+.container {
+    background: linear-gradient(
+    to right, 
+    #4b21ff 0%, 
+    #4b21ff 40%, 
+    #ffffff 40%, 
+    #ffffff 100%
+    );
+    max-height: 100vh;
+    max-width: 100vw;
+  }
+
+.changeColor {
+    color: 'black';
+}
+
+.githubButton {
+    padding-left : 55px;
+}
+.resumeButton {
+    padding-left : 5px;
+}
+
+.projectBelow {
+    padding-top: 390px;
+}
+.projectAbout {
+    padding-top: 150px;
+}
+
+.projectContact {
+    padding-top: 293px;
+}
+
+.projectLeft {
+    display: 'inline-block';
+    max-height: 90vh;
+    max-width: 90vw;
+    margin-top: -260px;
+    padding-left : 55vw;
+}
+
+.contactLeft {
+    display: 'inline-block';
+    max-height: 90vh;
+    max-width: 90vw;
+    margin-top: -80vh;
+    padding-left : 60vw;
+}
+
+.littleTop {
+    margin-top: -25px;
+}
+.footerlittleTop {
+    margin-top: -18px;
+}
+
+.footerTop {
+    margin-top: -150px;
+}
+
+.footerRight {
+    margin-top: -65px;
+    padding-left: 82vw;
+}
+
+.contactRight {
+    padding-left: 25px;
+    font-size: 95%;
+}
+
+.contactContact{
+    margin-top: -7.5px;
+}
+
+.contactEmail{
+    margin-top: 7.5px;
+}
+
+
+.contactForm {
+    width: 25vw;
+    margin-top: 7.5px;
+    padding-left: 2.5vw;
+    padding-right: 2.5vw;
+  }
+
+.contactSubmit {
+    margin-top: 7.5px;
+}
+
+
+
+.footerLinks {
+    display: 'inline-block';
+    margin-bottom: 25px;
+    margin-top: -10px;
+    padding-left : 0.5vw;
+}
+
+
+.footerPair {
+    margin-top: -10px;
+}
+
+.footerPair h6 {
+    padding-left : 0.5vw;
+    font-size: 95%;
+}
+
+.moreTop {
+    position: absolute;
+    margin-top: -80px;
+    margin-left: -90px;
+    z-index: 4;
+}
