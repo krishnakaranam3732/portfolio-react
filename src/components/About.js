@@ -24,7 +24,7 @@ export default class About extends Component {
               &nbsp;&nbsp;  View on GitHub
             </Fab>
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            <Fab variant="extended" color="primary" aria-label="Add" href="https://drive.google.com/file/d/1i6LpuYbpWYnSnf-rl0GA7RgnzA1kntlu/view?usp=sharing" target="_blank">
+            <Fab variant="extended" color="primary" aria-label="Add" href="https://drive.google.com/file/d/1LciiWoQooy32cZRvtpeujGFph66UOeyh/view?usp=sharing" target="_blank">
               <i style={{fontSize : '21px'}} class="fa fa-file-text-o"></i>
               &nbsp;&nbsp;  View Full Resume
             </Fab>
